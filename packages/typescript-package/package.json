@@ -1,5 +1,5 @@
 {
-  "name": "@chanwit-y/typescript-",
+  "name": "@chanwit-y/typescript-package",
   "version": "0.0.11-alpha.0",
   "description": "> TODO: description",
   "author": "chanwit-y <chanwit.yimneam@hotmail.com>",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chanwit-y/http-client.git"
+    "url": "git+https://github.com/chanwit-y/react-lib.git"
   },
-  "gitHead": "f5d43527f5901ce35b396c059c2a763186b37133"
+  "gitHead": "6bd839a8b8db48a98114007e9b3087dbc0637921"
 }
