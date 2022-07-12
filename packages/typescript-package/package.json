@@ -19,5 +19,5 @@
     "start": "tsc",
     "build": "tsc"
   },
-  "gitHead": "83be490d66b6ba9e900d6ad695017382438771bd"
+  "gitHead": "3e27894d225931f5936b647a1cf745e1d48adfed"
 }
