@@ -21,5 +21,6 @@
   },
   "dependencies": {
     "typescript-package": "0.0.0"
-  }
+  },
+  "gitHead": "8d4b7f7bc95d0db1292bf633fe6c140422aa4e2f"
 }
