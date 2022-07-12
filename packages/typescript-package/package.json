@@ -19,5 +19,9 @@
     "start": "tsc",
     "build": "tsc"
   },
-  "gitHead": "4a2de079493c5cfcdc7dcb070cbab7e8664e9e5b"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanwit-y/http-client.git"
+  },
+  "gitHead": "f5d43527f5901ce35b396c059c2a763186b37133"
 }
