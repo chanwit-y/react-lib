@@ -1,0 +1,25 @@
+{
+  "name": "@chanwit-y/react-package",
+  "version": "0.0.0",
+  "description": "",
+  "author": "chanwit-y <chanwit.yimneam@hotmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "tsc",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "typescript-package": "0.0.0"
+  }
+}

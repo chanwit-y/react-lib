@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"typescript-package": "link:/Users/cy.b/Desktop/Furnace/lerna/demo-1/packages/typescript-package"
+	}
+}
