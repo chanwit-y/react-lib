@@ -20,7 +20,7 @@
     "build": "rollup -c"
   },
   "dependencies": {
-    "typescript-package": "0.0.14-alpha.0"
+    "typescript-package": "0.0.12-alpha.0"
   },
   "repository": {
     "type": "git",
