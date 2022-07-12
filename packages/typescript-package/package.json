@@ -1,6 +1,6 @@
 {
-  "name": "@chanwit-y/typescript-package",
-  "version": "0.0.8-alpha.0",
+  "name": "@chanwit-y/typescript-",
+  "version": "0.0.9-alpha.0",
   "description": "> TODO: description",
   "author": "chanwit-y <chanwit.yimneam@hotmail.com>",
   "homepage": "",
@@ -19,5 +19,5 @@
     "start": "tsc",
     "build": "tsc"
   },
-  "gitHead": "7676f74a03fa274c37b844b7543f641d68695da0"
+  "gitHead": "783f6790fbd85a0fd8de4a0dcd7056a4efe7f645"
 }
