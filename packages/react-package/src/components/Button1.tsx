@@ -1,18 +1,19 @@
 import React, { createElement } from "react";
-// import { Button } from "@mui/material";
+import { Button } from "@mui/material";
 import { printName } from "@chanwit-y/typescript-package";
 
 export const Button1 = () => {
-  let x = createElement("button", {
-    onclick: () => {
-      console.log("click hi");
+  let x = createElement(
+    Button,
+    {
+      onClick: () => {
+        console.log("click hi");
+      },
     },
-  });
-  // x.props = {
-  //   onclick: () => {
-  //     console.log("click hi");
-  //   },
-  // };
+    [<p>x1</p>]
+  );
+
+  // let x2: React.ReactElement = <button>x 2</button>;
 
   return (
     <div>
