@@ -1,10 +1,16 @@
-import React from "react";
+import React, { FC } from "react";
 import { printName } from "@chanwit-y/typescript-package";
 
-export const Button2 = () => {
+type props = {
+  onClick: () => void;
+  children?: React.ReactElement;
+};
+
+export const Button2: FC<props> = ({ onClick, children }) => {
   return (
-    <div>
+    <div onClick={onClick}>
       <div>{printName("C", "Y")}</div>
+      {children}
     </div>
   );
 };
