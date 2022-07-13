@@ -1,10 +1,11 @@
 import React, { createElement } from "react";
-import { Button } from "@mui/material";
+// import { Button } from "@mui/material";
+import { Button2 } from "./Button2";
 import { printName } from "@chanwit-y/typescript-package";
 
 export const Button1 = () => {
   let x = createElement(
-    Button,
+    Button2,
     {
       onClick: () => {
         console.log("click hi");
