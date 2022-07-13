@@ -1,14 +1,18 @@
-import React from "react";
+import React, { createElement } from "react";
 // import { Button } from "@mui/material";
 import { printName } from "@chanwit-y/typescript-package";
 
 export const Button1 = () => {
-  let x: JSX.Element = <button>test</button>;
-  x.props = {
+  let x = createElement("button", {
     onclick: () => {
       console.log("click hi");
     },
-  };
+  });
+  // x.props = {
+  //   onclick: () => {
+  //     console.log("click hi");
+  //   },
+  // };
 
   return (
     <div>
