@@ -15,7 +15,7 @@
     "declarationDir": "types",
     "emitDeclarationOnly": true,
     "paths": {
-      "typescript-package": ["../typescript-package/src/"]
+      "@chanwit-y/typescript-package": ["../typescript-package/src/"]
     }
   }
 }
