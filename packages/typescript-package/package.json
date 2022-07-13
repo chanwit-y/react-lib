@@ -5,9 +5,9 @@
   "author": "chanwit-y <chanwit.yimneam@hotmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/typescript-package.js",
-  "module": "lib/typescript-package.js",
-  "types": "lib/typescript-package.d.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
