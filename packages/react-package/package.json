@@ -24,7 +24,7 @@
     "url": "git+https://github.com/chanwit-y/react-lib.git"
   },
   "dependencies": {
-    "@chanwit/typescript-package": "*"
+    "@chanwit-y/typescript-package": "0.0.24-alpha.0"
   },
   "gitHead": "f5d43527f5901ce35b396c059c2a763186b37133"
 }
