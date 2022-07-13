@@ -1,11 +1,11 @@
 import React from "react";
-import {Button as MuiButton} from "@mui/material";
+import {Button} from "@mui/material";
 import { printName } from "@chanwit-y/typescript-package";
 
-export const Button = () => {
+export const Button1 = () => {
   return (
     <div>
-      <MuiButton>Hi beer</MuiButton>
+      <Button>Hi beer</Button>
       <div>{printName("Chanwit", "Yimneam")}</div>
     </div>
   );
