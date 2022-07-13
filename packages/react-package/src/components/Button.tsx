@@ -5,7 +5,7 @@ export const Button = () => {
   return (
     <div>
       <div>Hi beer</div>
-      <div>{printName("Chanwit", "Yimneam")}</div>
+      {/* <div>{printName("Chanwit", "Yimneam")}</div> */}
     </div>
   );
 };
