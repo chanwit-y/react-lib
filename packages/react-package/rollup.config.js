@@ -6,7 +6,8 @@ import external from "rollup-plugin-peer-deps-external";
 import postcss from "rollup-plugin-postcss";
 import dts from "rollup-plugin-dts";
 
-const packageJson = require("../../package.json");
+// const packageJson = require("../../package.json");
+const packageJson = require("./package.json");
 
 export default [
   {
@@ -15,13 +16,13 @@ export default [
       {
         file: packageJson.main,
         format: "cjs",
-        sourcemap: 'inline',
-        name: "react-ts-lib",
+        sourcemap: "inline",
+        name: "react-package",
       },
       {
         file: packageJson.module,
         format: "esm",
-        sourcemap: 'inline',
+        sourcemap: "inline",
       },
     ],
     plugins: [
@@ -34,7 +35,7 @@ export default [
     ],
   },
   {
-    input: "dist/esm/types/index.d.ts",
+    input: "./src/index.ts",
     output: [{ file: "dist/index.d.ts", format: "esm" }],
     external: [/\.css$/],
     plugins: [dts()],
