@@ -1,5 +1,5 @@
 import React from "react";
-import { printName } from "@chanwit-y/typescript-package";
+// import { printName } from "@chanwit-y/typescript-package";
 
 export const Button = () => {
   return (
